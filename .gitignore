@@ -1,3 +1,14 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# dotenv environment variables file
+.env
+.env.test
+
+# package-lock.json
+package-lock.json
+
 # Logs
 logs
 *.log
@@ -6,8 +17,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
-node_modules
 dist
 dist-ssr
 *.local
