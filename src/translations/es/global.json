@@ -1,3 +1,5 @@
 {
+    "navBar": ["INICIO", "ACERCA DE MI", "TRABAJOS", "HABILIDADES", "CONTACTO"],
     "developer": "desarrollador full stack"
+    
 }

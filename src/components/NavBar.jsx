@@ -1,10 +1,12 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const NavBar = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false); //Estado del menu
     const [activeSection, setActiveSection] = useState(""); //Estado activo del nav
+    const [t, i18n] = useTranslation("global"); //Traduccion
 
     // Funcion para abrir y cerrar el menu
     const handleMenuClick = () => {
@@ -49,21 +51,27 @@ const NavBar = () => {
     }, []);
     
     //Fin estado activo del nav
-    
+    //Cambio de ideoma
+    const changeLanguage = () => {
+        const newLang = i18n.language === 'es' ? 'en' : 'es';
+        i18n.changeLanguage(newLang);
+    };
     //----------------------------------------------------------------------//
+
 
     return(
         <header className="header">
                 <a href="#" className="logo"></a>
                 <i className={`bx bx-menu ${isMenuOpen ? "bx-x" : ""}`} id="menu-icon" onClick={handleMenuClick}></i>
                 <nav className={`navbar ${isMenuOpen ? "active" : ""}`}> 
-                {/* <nav className={`navbar`}> */}
-                    <a id="homeId" href="#home" className="active" style={{ "--i": 1 }} onClick={handleNavLinkClick}>Home</a>
-                    <a id="aboutMeId" href="#aboutMe" style={{ "--i": 2 }} onClick={handleNavLinkClick}>About me</a>
-                    <a id="workId" href="#work" style={{ "--i": 3 }} onClick={handleNavLinkClick}>Work</a>
-                    <a id="skillsId" href="#skills" style={{ "--i": 4 }} onClick={handleNavLinkClick}>Skills</a>
-                    <a id="contactId" href="#contact" style={{ "--i": 5 }} onClick={handleNavLinkClick}>Contact</a>
+                    <a id="homeId" href="#home" className="active" style={{ "--i": 1 }} onClick={handleNavLinkClick}>{t("navBar.0")}</a>
+                    <a id="aboutMeId" href="#aboutMe" style={{ "--i": 2 }} onClick={handleNavLinkClick}>{t("navBar.1")}</a>
+                    <a id="workId" href="#work" style={{ "--i": 3 }} onClick={handleNavLinkClick}>{t("navBar.2")}</a>
+                    <a id="skillsId" href="#skills" style={{ "--i": 4 }} onClick={handleNavLinkClick}>{t("navBar.3")}</a>
+                    <a id="contactId" href="#contact" style={{ "--i": 5 }} onClick={handleNavLinkClick}>{t("navBar.4")}</a>
+                    <i className='bx bxs-flag-alt' id="flag" onClick={changeLanguage}></i>
                 </nav>
+                
             </header>
     )
 

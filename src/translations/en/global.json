@@ -1,3 +1,4 @@
 {
-"developer": "full stack developer"
+    "navBar": ["HOME", "ABOUT ME", "WORK", "SKILLS", "CONTACT"],
+    "developer": "full stack developer"
 }

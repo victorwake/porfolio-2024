@@ -367,6 +367,11 @@ template {
   transition: text-shadow 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+#flag{
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
 .titulo{
   font-family: Bebas Neue,sans-serif;
   line-height: 0.8;
@@ -387,6 +392,7 @@ template {
     top: 0;
     left: 0;
     width: 100%;
+    max-width: 1800px;
     padding: 2rem 9%;
     background-color: #F0F0E8;
     display: flex;
@@ -453,7 +459,7 @@ template {
     color: var(--text-color);
     font-weight: 500;
     margin-left: 2rem;
-    text-shadow: 4px 2px 6px rgba(253, 2, 2, 0.71);
+    /* text-shadow: 4px 2px 6px rgba(253, 2, 2, 0.71); */
 
   }
 
@@ -472,6 +478,12 @@ template {
     margin-top: -1rem;
     font-size: 3.6rem;
     cursor: pointer;
+  }
+
+  #flag{
+    font-size: 2em;
+    margin-left: 0px;
+    margin-top: -10px;
   }
 
     .navbar{
