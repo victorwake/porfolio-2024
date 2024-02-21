@@ -114,6 +114,18 @@
         text-align: center;
     }
 
+    .card_btn  a{
+        color: aliceblue;
+        text-decoration: none;
+        outline: none;
+    }
+
+
+    button{
+        background-color: rgba(31, 31, 31, 0.829);
+        color: aliceblue;
+    }
+
     .multi-texto h3,
 .multi-texto span {
     display: inline;

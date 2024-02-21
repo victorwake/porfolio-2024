@@ -349,6 +349,11 @@ template {
   display: none;
 }
 
+a {
+  text-decoration: none;
+  outline: none;
+}
+
 :root {
   color-scheme: light dark;
   color: rgba(39, 39, 39, 0.87);

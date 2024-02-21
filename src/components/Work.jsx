@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import iglGranos from '../assets/img/work/iglGranos.jpg'
 const Work = () => {
   const [t, i18n] = useTranslation("global");
   const handleMouseOver = (event) => {
@@ -38,45 +39,48 @@ const Work = () => {
             <li className="cards_item">
               <div className="card">
                 <div className="card_image">
-                  <img className="img-work" src="https://picsum.photos/500/300/?image=10"></img>
+                  <img className="img-work" src={iglGranos}></img>
                 </div>
                 <div className="card_content">
-                  <h2 className="card_title">Card Grid Layout</h2>
+                  <h2 className="card_title">IGL Granos S.A.</h2>
                   <p className="card_text">
-                    Demo of pixel perfect pure CSS simple responsive card grid
-                    layout
+                    Pagina para empresa exportador de materias primas agrícolas, centrándose en productos orgánicos.
                   </p>
-                  <button className="btn card_btn">Read More</button>
+                  <button className="btn card_btn">
+                  <a  href="https://victorwake.github.io/igl-granos/" target="_blank">View Website</a>
+                  </button>
                 </div>
               </div>
             </li>
             <li className="cards_item">
               <div className="card">
                 <div className="card_image">
-                  <img className="img-work" src="https://picsum.photos/500/300/?image=5"></img>
+                  <img className="img-work" src={iglGranos}></img>
                 </div>
                 <div className="card_content">
-                  <h2 className="card_title">Card Grid Layout</h2>
+                  <h2 className="card_title">IGL Granos S.A.</h2>
                   <p className="card_text">
-                    Demo of pixel perfect pure CSS simple responsive card grid
-                    layout
+                    Pagina para empresa exportador de materias primas agrícolas, centrándose en productos orgánicos.
                   </p>
-                  <button className="btn card_btn">Read More</button>
+                  <button className="btn card_btn">
+                  <a  href="https://victorwake.github.io/igl-granos/" target="_blank">View Website</a>
+                  </button>
                 </div>
               </div>
             </li>
             <li className="cards_item">
               <div className="card">
                 <div className="card_image">
-                  <img className="img-work" src="https://picsum.photos/500/300/?image=11"></img>
+                  <img className="img-work" src={iglGranos}></img>
                 </div>
                 <div className="card_content">
-                  <h2 className="card_title">Card Grid Layout</h2>
+                  <h2 className="card_title">IGL Granos S.A.</h2>
                   <p className="card_text">
-                    Demo of pixel perfect pure CSS simple responsive card grid
-                    layout
+                    Pagina para empresa exportador de materias primas agrícolas, centrándose en productos orgánicos.
                   </p>
-                  <button className="btn card_btn">Read More</button>
+                  <button className="btn card_btn">
+                  <a  href="https://victorwake.github.io/igl-granos/" target="_blank">View Website</a>
+                  </button>
                 </div>
               </div>
             </li>
