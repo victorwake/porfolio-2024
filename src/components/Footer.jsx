@@ -18,7 +18,7 @@ const Footer = () => {
 
     return(
        <>
-       <section className="aboutMe">
+       <section className="footer">
             <h2 className="titulo">
                 {Array.from("FOOTER").map((char, index) => (
                 // Cada caracter envuelto en un span con evento onMouseOver

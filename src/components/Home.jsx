@@ -28,7 +28,7 @@ const Home = () => {
                 ))}
                 </h2>
             <h1 className="titulo">
-                {Array.from(t('developer')).map((char, index) => (
+                {Array.from("full stack developer").map((char, index) => (
                 // Cada caracter envuelto en un span con evento onMouseOver
                 <span key={index} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
                     {char}
