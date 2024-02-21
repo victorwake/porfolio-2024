@@ -38,7 +38,7 @@ const Work = () => {
             <li className="cards_item">
               <div className="card">
                 <div className="card_image">
-                  <img src="https://picsum.photos/500/300/?image=10"></img>
+                  <img className="img-work" src="https://picsum.photos/500/300/?image=10"></img>
                 </div>
                 <div className="card_content">
                   <h2 className="card_title">Card Grid Layout</h2>
@@ -53,7 +53,7 @@ const Work = () => {
             <li className="cards_item">
               <div className="card">
                 <div className="card_image">
-                  <img src="https://picsum.photos/500/300/?image=5"></img>
+                  <img className="img-work" src="https://picsum.photos/500/300/?image=5"></img>
                 </div>
                 <div className="card_content">
                   <h2 className="card_title">Card Grid Layout</h2>
@@ -68,7 +68,7 @@ const Work = () => {
             <li className="cards_item">
               <div className="card">
                 <div className="card_image">
-                  <img src="https://picsum.photos/500/300/?image=11"></img>
+                  <img className="img-work" src="https://picsum.photos/500/300/?image=11"></img>
                 </div>
                 <div className="card_content">
                   <h2 className="card_title">Card Grid Layout</h2>

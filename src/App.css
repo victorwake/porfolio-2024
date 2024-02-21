@@ -62,7 +62,7 @@
     margin-bottom: 60px;
 }
 
-img {
+.img-work {
     height: auto;
     max-width: 100%;
     vertical-align: middle;
@@ -70,9 +70,18 @@ img {
     transition: filter 0.5s ease-in-out;
     }
 
-    img:hover {
+    .img-work:hover {
     /* Mostrar la imagen a color */
     filter: grayscale(0%);
+    }
+
+    .imgSkills{
+        filter: grayscale(100%);
+        transition: filter 0.5s ease-in-out;
+    }
+
+    .imgSkills:hover {
+        filter: grayscale(0%);
     }
 
     .skills-container {
@@ -97,6 +106,32 @@ img {
         gap: 2.5rem;
     
     }
+
+    .img-skill{
+
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+
+    .multi-texto h3,
+.multi-texto span {
+    display: inline;
+}
+
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h3{
+    font-size: 2.6rem;
+}
+
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
 
 .cards {
     display: flex;

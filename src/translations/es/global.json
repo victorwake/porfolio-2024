@@ -1,5 +1,12 @@
 {
     "navBar": ["INICIO", "ACERCA DE MI", "TRABAJOS", "HABILIDADES", "CONTACTO"],
-    "developer": "desarrollador full stack"
-    
+    "developer": "desarrollador full stack",
+    "aboutMe": "Algunas palabras que me describen: Intuición, curiosidad, investigación, perseverancia, paciencia, resolución de problemas, adaptabilidad a los cambios, liderazgo, buena predisposición a las sugerencias, comunicación. En este momento me encuentro capacitándome activamente en programación, realizando varios cursos/bootcamp y proyectos.",
+    "About-me": ["Acerca de ", " mi", "desarrollador Full Stack!"],
+    "multi-texto": ["desarrollador Frontend", "", "desarrollador Backend" ],
+    "soy": "Soy ",
+    "btn-about": "Leer más",
+    "download" : "Descargar CV",
+    "contact": "Contáctame",
+    "me": ""
 }

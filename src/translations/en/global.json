@@ -1,4 +1,12 @@
 {
     "navBar": ["HOME", "ABOUT ME", "WORK", "SKILLS", "CONTACT"],
-    "developer": "full stack developer"
+    "developer": "full stack developer",
+    "aboutMe": "Some words that describe me: Intuition, curiosity, research, perseverance, patience, problem-solving, adaptability to changes, leadership, openness to suggestions, communication. Currently, I am actively training myself in programming, taking various courses/bootcamps and working on projects.",
+    "About-me": ["About",  " Me", "Full Stack Developer!" ],
+    "soy": "And I'm a ",
+    "multi-texto": ["Frontend developer", "", "backend developer" ],
+    "btn-about": "Read more",
+    "download" : "Download CV",
+    "contact": "Contact",
+    "me": " Me!"
 }
