@@ -159,3 +159,12 @@
     max-width: 300px;
     margin: 0.5rem;
 }
+
+.socialLinks a {
+    display: inline-block;  /* Display links as inline blocks for spacing */
+    margin-right: 10px;     /* Adjust spacing as needed */
+}
+
+/* .social-links a:last-child {
+    margin-right: 0; 
+} */
